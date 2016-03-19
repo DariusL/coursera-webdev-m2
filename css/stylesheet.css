@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 1.75em;
+}
+
+section {
+  padding: 20px;
+}
+
+section > div {
+  border: 1px solid black;
+  background-color: gray;
+}
+
+section p {
+  margin: 20px;
+  color: black;
+}
+
+section h2 {
+  font-size: 1.25em;
+  float: right;
+  border: 1px solid black;
+  margin: -1px;
+  margin-bottom: 20px;
+  padding: 5px;
+  width: 150px;
+  text-align: center;
+}
+
+section#chicken h2 {
+  background: #d59898;
+}
+
+section#beef h2{
+  background: #c14543;
+}
+
+section#sushi h2 {
+  background: #e5d198;
+}
+
+section p {
+  clear: right;
+}
